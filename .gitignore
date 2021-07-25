@@ -1,0 +1,9 @@
+*~
+*.pyc
+*.pyi
+*.local.conf
+*.local.json
+*.DS_Store
+*.swp
+.idea
+*.log
