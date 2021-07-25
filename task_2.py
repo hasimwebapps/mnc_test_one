@@ -71,10 +71,22 @@ def process(total, pay):
     print '\nOutput: Something Wrong, Please check your input!'
 
 
-
-if __name__ == '__main__':
-    # total = '70649xx'
-    # total = 700649
+def test_1():
+    print '\n-------'
     total = 700649
     pay = 800000
     process(total, pay)
+    print '------------------------'
+
+
+def test_2():
+    print '\n-------'
+    total = 700649
+    pay = 700000
+    process(total, pay)
+    print '------------------------'
+
+
+if __name__ == '__main__':
+    test_1()
+    test_2()
